@@ -6,7 +6,7 @@ from ltp import LTP
 ltp = LTP()
 # 读取C:\Users\魏子超\OneDrive\学习\毕业论文\语料output文件夹下的所有txt文件
 import os
-path = r'C:\Users\魏子超\OneDrive\Pycharm\MyPythonProject1\语料txt'
+path = r'C:\Users\魏子超\OneDrive\Python\MyPythonProject1\语料txt'
 corpus = os.listdir(path)
 # 循环读取每一个txt文件，并输出分析后结果到‘文件名-dp.txt’
 for file in corpus:
